@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+apps/mobile/node_modules/
+
+# Expo
+apps/mobile/.expo/
+apps/mobile/dist/
+apps/mobile/web-build/
+
+# Environment
+.env
+apps/mobile/.env
+apps/mobile/.env.local
+
+# Build artifacts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+.DS_Store
+
+# System
+Thumbs.db
